@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<header>
+    <h1></h1>
+</header>
+<body>
+    <h1>Formulario de Aprendizaje</h1>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+
+        <label for="Direccion">Direccion:</label>
+        <input type="Direccion" id="Direccion" name="Direccion" required placeholder="Direccion">
+        
+        <label for="Mensaje">Mensaje</label>
+        <input type="tel" id="tel" name="tel" required>
+
+        <label for="fecha"> Fecha </label>
+        <input type="date" id="date" name="date" required>
+
+
+        <button type="submit" onclick="mostrarAlerta()">Enviar</button>
+        <script>
+            function mostrarAlerta() {
+                var nombre = document.getElementById("nombre").value;
+                var direccion = document.getElementById("Direccion").value;
+                var mensaje = document.getElementById("tel").value;
+                var fecha = document.getElementById("date").value;
+    
+                var contenidoAlerta = "Nombre: " + nombre + "\nDirección: " + direccion + "\nMensaje: " + mensaje + "\nFecha: " + fecha;
+    
+                alert(contenidoAlerta);
+            }
+        </script>
+    </form>
+</body>
+
+<aside>
+    <h1>Formulario de Aprendizaje</h1>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+
+        <label for="Direccion">Direccion:</label>
+        <input type="Direccion" id="Direccion" name="Direccion" required placeholder="Direccion">
+        
+        <label for="Mensaje">Mensaje</label>
+        <input type="tel" id="tel" name="tel" required>
+
+        <label for="fecha"> Fecha </label>
+        <input type="date" id="date" name="date" required>
+
+
+        <button type="submit" onclick="mostrarAlerta()">Enviar</button>
+        <script>
+            function mostrarAlerta() {
+                var nombre = document.getElementById("nombre").value;
+                var direccion = document.getElementById("Direccion").value;
+                var mensaje = document.getElementById("tel").value;
+                var fecha = document.getElementById("date").value;
+    
+                var contenidoAlerta = "Nombre: " + nombre + "\nDirección: " + direccion + "\nMensaje: " + mensaje + "\nFecha: " + fecha;
+    
+                alert(contenidoAlerta);
+            }
+        </script>
+    </form>
+</aside>
+</html>
